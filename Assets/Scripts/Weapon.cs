@@ -6,6 +6,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Weapon : MonoBehaviour
 {
+    public Transform barrel = null;
+    public GameObject projectilePrefab = null;
+
     private XRGrabInteractable interactable = null;
 
     private void Awake()
@@ -28,7 +31,9 @@ public class Weapon : MonoBehaviour
 
     private void Fire(XRBaseInteractor interactable)
     {
-        print("Fire");
+        var projectileObject = Instantiate(projectilePrefab, barrel.position, barrel.rotation);
+        var projective = projectileObject.GetComponent<Projectile>();
+        projective.Launch();
 
     }
 }

@@ -640,6 +640,12 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Main Camera - TPD - Rotation
       m_Flags: 0
+--- !u!4 &1094275910 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3961539638230057481, guid: 1e4607ac3a0942f45963b1bdabdee2f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7932083752282384778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1361156806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1206,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Revolver
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158269264748141546, guid: 1e4607ac3a0942f45963b1bdabdee2f5,
+        type: 3}
+      propertyPath: barrel
+      value: 
+      objectReference: {fileID: 1094275910}
+    - target: {fileID: 5158269264748141546, guid: 1e4607ac3a0942f45963b1bdabdee2f5,
+        type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3374445192380950668, guid: cc9f8437438a29c4893163697141a4de,
+        type: 3}
+    - target: {fileID: 5171492246897319801, guid: 1e4607ac3a0942f45963b1bdabdee2f5,
+        type: 3}
+      propertyPath: m_MovementType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5171492246897319801, guid: 1e4607ac3a0942f45963b1bdabdee2f5,
         type: 3}
