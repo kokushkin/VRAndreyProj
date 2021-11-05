@@ -74,7 +74,7 @@ TrailRenderer:
   m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.01
+    widthMultiplier: 0.03
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -212,4 +212,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 534101cf3d99be444924b451229c46b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchForcce: 10
+  launchForcce: 100
