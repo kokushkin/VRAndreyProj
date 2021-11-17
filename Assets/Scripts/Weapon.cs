@@ -16,6 +16,7 @@ public class Weapon : MonoBehaviour
     private void Awake()
     {
         interactable = GetComponent<XRGrabInteractable>();
+        rbody = GetComponent<Rigidbody>();
 
     }
 
@@ -28,7 +29,6 @@ public class Weapon : MonoBehaviour
     private void OnDisable()
     {
         interactable.onActivate.RemoveListener(Fire);
-        rbody = GetComponent<Rigidbody>();
 
     }
 
