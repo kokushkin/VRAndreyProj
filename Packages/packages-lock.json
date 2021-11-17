@@ -8,9 +8,9 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.editorxr": {
-      "version": "0.4.12-preview",
+      "version": "file:C:/EditorXR",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.list-view-framework": "1.1.7-preview",
         "com.unity.modules.animation": "1.0.0",
@@ -24,8 +24,7 @@
         "com.unity.xrtools.module-loader": "1.1.1",
         "com.unity.xrtools.spatial-hash": "0.1.3-preview",
         "com.unity.xrtools.utils": "1.1.1"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
