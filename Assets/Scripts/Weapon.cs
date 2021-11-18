@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -40,6 +41,8 @@ public class Weapon : MonoBehaviour
 
 
         rbody.AddRelativeForce(Vector3.right * recoil, ForceMode.Impulse);
+
+        EditorApplication.isPlaying = false;
 
     }
 }
