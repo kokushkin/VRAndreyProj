@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -22,7 +23,11 @@ public class Target : MonoBehaviour
         int score = 0;
         
         if (distanceFromCentre < 0.25f)
+        {
+            EditorApplication.isPlaying = false;
             score = 15;
+        }
+        
 
         else if (distanceFromCentre < 0.5f)
             score = 5;

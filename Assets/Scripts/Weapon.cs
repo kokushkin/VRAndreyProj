@@ -42,7 +42,7 @@ public class Weapon : MonoBehaviour
 
         rbody.AddRelativeForce(Vector3.right * recoil, ForceMode.Impulse);
 
-        EditorApplication.isPlaying = false;
+        
 
     }
 }
